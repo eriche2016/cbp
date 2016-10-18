@@ -6,7 +6,12 @@ This implements a module of Multimodal Compact Bilinear Pooling for Torch7 [cunn
 
 ### Dependencies
 * [spectral-lib](https://github.com/jnhwkim/spectral-lib) by @mbhenaff for CuFFT wrappers
-
+###
+***when install spectral-lib, you may need to run the following command to create soft symbol link to avoid error when compiling spectralnet***,
+```
+sudo ln -s /usr/local/cuda/lib64/libcufft.so /usr/lib/libcufft.so
+```
+###
 ### Installation
 ```
 luarocks make rocks/cbp-scm-1.rockspec

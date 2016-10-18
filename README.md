@@ -43,5 +43,11 @@ and then source it:
 source .bashrc 
 ```
 then all the stuff is okay now. enjoy yourself by using cbp technique.
+### update 
+there is another alternative  which also can add libcufft.so.7.5 to our search path: 
+```
+adding cuda/lib64 to LD_LIBRARY_PATH like above
+
+```
 ### License
 BSD 3-Clause

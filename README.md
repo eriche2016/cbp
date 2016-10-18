@@ -5,7 +5,7 @@
 This implements a module of Multimodal Compact Bilinear Pooling for Torch7 [cunn](https://github.com/torch/cunn).
 
 ### Dependencies
-* [spectral-lib](https://github.com/jnhwkim/spectral-lib) by @mbhenaff for CuFFT wrappers
+* [spectral-lib](https://github.com/eriche2016/spectral-lib) by @mbhenaff for CuFFT wrappers
 ###
 ***when install spectral-lib, you may need to run the following command to create soft symbol link to avoid error when compiling spectralnet***,
 ```
